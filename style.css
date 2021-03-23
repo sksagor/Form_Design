@@ -1,0 +1,123 @@
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: 0 solid;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+input:focus,
+button:focus,
+textarea:focus,
+a:focus {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+.section-bg {
+  background-image: url(img/bg-2.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 180%;
+  width: 65%;
+}
+
+.section-bg:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: turquoise;
+  opacity: 0.8;
+}
+
+.contact-form h2 {
+  color: white;
+}
+.contact-form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  margin-bottom: 17px;
+  color: #333;
+}
+
+.contact-form input[type="submit"] {
+  width: auto;
+  padding: 15px 30px;
+  color: #3abaad;
+  font-weight: 700;
+}
+.appointment-text {
+  padding-left: 100px;
+}
+
+.appointment-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+  padding-top: 15px;
+}
+
+.appointment-text li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.fas {
+  color: #3abaad;
+}
+
+.boxed-btn {
+  color: #3abaad;
+  background-color: #d3e7d4; /* Green */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+.boxed-btn:hover {
+  color: #09a192;
+  background-color: #c8cec9;
+  font-weight: 600;
+}
